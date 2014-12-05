@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<com.google.android.maps.MapView android:id="@+id/map"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:enabled="true" android:clickable="true"
+		android:apiKey="0wa9rnpB9b0nEq3h8TuqzhRu9pYR30F10vLEb6w"
+		android:focusable="true" />
+	<!--  	prod	android:apiKey="0wa9rnpB9b0kpKtNynqueN_TMEgmtvjF2Bg3Jng" /> 
+			dev		android:apiKey="0wa9rnpB9b0nEq3h8TuqzhRu9pYR30F10vLEb6w"
+	-->
+</LinearLayout>
+

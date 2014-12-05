@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="welcome">Welcome to GFindster!!</string>
+	<string name="app_name">GFindster</string>
+
+	<string name="alert_dialog_talk">Request</string>
+	<string name="button_ok">OK</string>
+	<string name="alert_dialog_ok">OK</string>
+
+	<string name="alert_dialog_cancel">Cancel</string>
+	<string name="alert_dialog_two_buttons_title">Menu Clicked</string>
+	<string name="alert_dialog_discard">Discard</string>
+	<string name="incoming_message">
+		XYZ would like to be your friend
+	</string>
+	<string name="imcoming_message_ticker_text">Test ticker</string>
+	<string name="request_title">Request</string>
+	<string name="ui_waiting">Waiting...</string>
+	<string name="ui_getstarted">Type here to start chat</string>
+	<string name="local_service_started">Connecting to server</string>
+	<string name="local_service_stopped">
+		Disconnecting from server
+	</string>
+	
+	<string name="btn_connect">Connect</string>
+	<string name="text_disconnect">Disconnect</string>
+	<string name="text_connect">Connect</string>
+	<string name="local_service_label">GFindster Chat</string>
+
+	<string name="opt_cancel">Cancel</string>
+	<string name="opt_save">Save</string>
+	<string name="opt_hint1">Enter a Chat Name (No Spaces)</string>
+	<string name="opt_hint2">Server name (Do not change)</string>
+	<string name="opt_hint3">Hint3</string>
+	<string name="opt_hint4">Hint4</string>
+	<string name="opt_hint5">Hint5</string>
+	
+	<string name="txtLagtime">Enter lag time (in seconds)</string>
+	
+	<string name="opt_opt3">Opt3</string>
+	<string name="opt_tDisableLocChat">Check to chat with local people or Uncheck to chat worldwide  </string>
+	<string name="opt_cbDisableLocChat">Check for Local Chat</string>
+	
+	<string name="err_network_unavail">Network Unavailable</string>
+</resources>

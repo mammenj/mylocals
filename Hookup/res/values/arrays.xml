@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_dialog_items2">
+        <item>Chat</item>
+        <item>Call</item>
+         <item>Information</item>
+    </string-array>
+    
+    <string-array name="select_dialog_items">
+        <item>Private Chat</item>
+        <item>Ignore</item>
+        <item>Location Chat</item>
+    </string-array>
+    
+   <string-array name="private_chat_items">
+        <item>Yes Private Chat</item>
+        <item>Ignore</item>
+        <item>No Private Chat</item>
+    </string-array>
+</resources>

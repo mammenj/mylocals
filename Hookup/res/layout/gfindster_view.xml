@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   >
+   
+      <TableRow>
+    	<TextView
+			android:id="@+id/peopleText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Welcome to GFindster--find friends, business and entertainment"
+			android:gravity="center"/>
+	</TableRow>
+
+   <TableRow>
+    <ImageButton
+    	android:layout_width="100dip"
+    	android:layout_height="100dip"
+    	android:src="@drawable/people" android:clickable="true" 
+    	android:fitsSystemWindows="true" 
+    	android:id="@+id/peopleBtn"  
+    	android:gravity="center"
+    	/>
+    </TableRow>
+
+   <TableRow>
+    	<TextView
+			android:id="@+id/peopleText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Friends around Me"
+			android:gravity="center"/>
+	</TableRow>
+
+   <TableRow>
+   	<ImageButton
+    	android:layout_width="100dip"
+    	android:layout_height="100dip"
+    	android:src="@drawable/business" 
+    	android:clickable="true" 
+
+    	android:gravity="center" 
+    	android:id="@+id/businessBtn"/>
+    </TableRow>	
+    <TableRow>
+    	<TextView
+		android:id="@+id/businessText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="Business around Me" />  
+ </TableRow>
+ <TableRow>
+  	<ImageButton 
+    	android:layout_width="100dip"
+    	android:layout_height="100dip"
+    	android:src="@drawable/entertain" 
+    	android:gravity="center"
+    	android:id="@+id/entertainBtn"/>
+    	</TableRow>	
+    	<TableRow>
+    	<TextView
+		android:id="@+id/entertainText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Entertainment around Me"
+		android:gravity="center"
+		/>
+ </TableRow>
+ <TableRow>
+  <!--     	<TextView
+		android:id="@+id/helpText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="\nTo CONNECT, Click Menu->Network->Connect"
+		android:gravity="center"
+		/>
+	-->	
+
+		<Button android:id="@+id/btn_Connect"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/text_connect" android:layout_gravity="center_horizontal">
+			<requestFocus />
+		</Button>
+ </TableRow>
+ 
+</TableLayout>

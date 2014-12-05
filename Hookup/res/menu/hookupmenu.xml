@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--
+	<item android:id="@+id/networkmenu" android:title="Network">
+		<menu>
+			<item android:id="@+id/disconnectserver" android:title="Disconnect" />
+			<item android:id="@+id/connectserver" android:title="Connect" />
+		</menu>
+	</item>
+	-->
+	<item android:id="@+id/zoomin" android:title="Zoom In (I)" />
+	<item android:id="@+id/zoomout" android:title="Zoom Out (O)" />
+	<item android:id="@+id/locationchat" android:title="Chat" />
+	<item android:id="@+id/preferences" android:title="Preferences" />
+</menu>
